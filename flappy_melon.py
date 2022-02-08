@@ -26,7 +26,7 @@ def get_tower():
     return Towers(randrange(0,500),randrange(100,300),tower_x=x+300*len(towers))
     
 
-birdimg=pygame.image.load(os.path.join('Assets','bird.png'))
+birdimg=pygame.image.load(os.path.join('Assets','dove.png'))
 def bird(birdx=100,birdy=300):
     screen.blit(birdimg,(birdx,birdy))
 
